@@ -9,6 +9,4 @@ except ImportError:
 
 if __name__ == "__main__":
     import sys
-    if "build_static" in sys.argv:
-        sys.exit(0)
     execute_manager(settings)

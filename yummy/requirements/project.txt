@@ -10,3 +10,4 @@ django-haystack==1.1.0
 nashvegas==0.4.1
 gondor==1.0a1.dev19
 psycopg2==2.3.2
+django-staticfiles==0.3.4

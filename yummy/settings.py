@@ -88,6 +88,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
     'pagination.middleware.PaginationMiddleware',
+    "staticfiles.context_processors.static_url",
 )
 
 ROOT_URLCONF = 'yummy.urls'
@@ -116,6 +117,7 @@ INSTALLED_APPS = (
     'haystack',
     'pagination',
     'taggit',
+    'staticfiles',
     'nashvegas',
 
     'bookmarks',
