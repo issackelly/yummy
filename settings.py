@@ -115,8 +115,8 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'haystack',
     'pagination',
-    'south',
     'taggit',
+    'nashvegas',
 
     'bookmarks',
 )
